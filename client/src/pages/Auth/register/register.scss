@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-image: url('./public/Assets/images/8.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    .leftR{
+        background-color: rgb(52, 53, 55);
+        width: 45%;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin: 1%;
+        border-radius: 5px;
+        z-index: 1;
+        .titleRegister{
+            color: white;
+            font-size: 32px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 2%;
+            width: 100%;
+            justify-content: center;
+        }
+        .icon{
+            font-size: 40px;
+        }
+        .formRegister{
+            background-color: white;
+            width: 80%;
+            border-radius: 5px;
+            .deginInp{
+                    position: relative;
+                    .error{
+                        margin-left: 10%;
+                        margin-top: 10px;
+                        font-size: 13px;
+                        text-decoration: underline;
+                        color: red;
+                        position: absolute;
+                        display: none;
+                    }
+                    .errorBlock{
+                        margin-left: 10%;
+                        margin-top: 10px;
+                        font-size: 13px;
+                        text-decoration: underline;
+                        color: red;
+                        position: absolute;
+                        display: block;
+                    }
+            .iconInp{
+                position: absolute;
+                z-index: 1;
+                top: 40px;
+                left: 8%;
+                color: rgb(61, 60, 60);
+            }
+            .inpRegister{
+                margin-top: 30px;
+                margin-left: 8%;
+                width: 80%;
+                height: 35px;
+                border: none;
+                border-bottom: 1px solid rgb(56, 53, 53);
+                outline: none;
+                padding-left: 6%;
+
+            }
+        }
+            .checkRegister{
+                font-size: 14px;
+                margin-top: 30px;
+                margin-left: 8%;
+                text-align: center;
+                .hr{
+                    width: 70%;
+                    margin-top: 20px;
+                    margin-bottom: 25px;
+                    margin-left: 12%;
+                }
+            }
+            .divBtnRegister{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                text-align: center;
+                .btnRegister{       
+                    padding: 10px 8%;
+                    border: none;
+                    background-color: rgb(52, 53, 55);
+                    color: white;
+                    font-weight: 600;
+                }
+                .disabled {
+                    padding: 10px 8%;
+                    border: none;
+                    background-color: rgb(131, 132, 134);
+                    display: inline;
+                    color: white;
+                    font-weight: 600;
+                }
+                .btnRegister:active{
+                    background-color: rgb(188, 199, 207);
+                }
+            }
+        }
+    }
+    .rightR{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        .titleWed{
+            font-size: 50px;
+            margin-top: 50px;
+            font-weight: 700;
+            color: rgb(52, 53, 55);
+            display: flex;
+            align-items: center;
+            gap:10px;
+            margin-top: 25%;
+            margin-left: 10%;
+        }
+        .introduceWed{
+            margin-top: 20px;
+            margin-left: 8%;
+            font-weight: 700;
+            color: rgb(52, 53, 55);
+        }
+        .sloganWed{
+            margin-top: 20px;
+            margin-left: 0%;
+            font-weight: 700;
+            font-size: 25px;
+            color: rgb(45, 49, 50);
+            text-align: center;
+            width: 50%;
+        }
+    }
+}

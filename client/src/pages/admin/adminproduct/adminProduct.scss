@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+th,td{
+    height: 50px;
+    width: auto;
+}
+td{
+    border-top: 1px solid rgb(160, 158, 158);
+}
+.adProduct{
+    margin-left: 16.5%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 82%;
+    margin-top: 1.5%;
+    height: 75vh;
+    .adProductTop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 5%;
+        padding-top: 3%;
+        .addNewProductad{
+            display: flex;
+            align-items: center;
+            background-color: rgb(49, 49, 48);
+            color: white;
+            font-weight: 600;
+            padding: 1% 2%;  
+            text-decoration:none;
+        }
+        .addNewProductad:active{
+            background-color: white;
+        }
+        .sortInpProduct{
+            display: flex;
+            width: 15%;
+            position: relative;
+            .titleSortPro{
+                position: absolute;
+                left: 5%;
+                top: 25%;
+                font-size: 14px;
+                color: rgb(98, 97, 95);
+            }
+            .selectPro{
+                width: 100%;
+                padding-left: 43%;
+                height: 35px;
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+                border: 1px solid rgb(143, 140, 140);
+                outline: none;
+            }
+        }
+    }
+    .fromProduct{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+        .tableProduct{
+            width: 95%;
+            text-align: center;
+            .actionProduct{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 3%;
+                .btnViewPro{
+                    background-color: rgb(74, 132, 208);
+                }
+                .btnEditPro{
+                    background-color: yellow;
+                }
+                .btnDelPro{
+                    background-color: rgb(225, 42, 42);
+                }
+                .btnProduct{
+                    padding: 3% 3%;
+                    border: none;
+                    color: white;
+                }
+                .btnProduct:active{
+                    background-color: gray;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,216 @@
+{
+  "users": [
+    {
+      "id": "178f",
+      "username": "shudan",
+      "email": "nghia120425@gmail.com",
+      "fullname": "Ngô Hữu Nghĩa",
+      "status": true,
+      "password": "nghia12345",
+      "role": false,
+      "avatar": "",
+      "phone": "",
+      "address": "",
+      "created_at": "6/7/2024",
+      "updated_at": "6/7/2024",
+      "cart": []
+    },
+    {
+      "id": "d031",
+      "username": "visten",
+      "email": "nghia120452@gmail.com",
+      "fullname": "Phạm Như Hoa",
+      "status": false,
+      "password": "nghia12345",
+      "role": false,
+      "avatar": "",
+      "phone": "",
+      "address": "",
+      "created_at": "8/7/2024",
+      "updated_at": "8/7/2024",
+      "cart": []
+    },
+    {
+      "id": "93cc",
+      "username": "Namber",
+      "email": "nam@gmail.com",
+      "fullname": "Ngô Hữu Nghĩa",
+      "status": true,
+      "password": "nam123",
+      "role": true,
+      "avatar": "",
+      "phone": "",
+      "address": "",
+      "created_at": "8/7/2024",
+      "updated_at": "8/7/2024",
+      "cart": []
+    },
+    {
+      "id": "510e",
+      "username": "DuyBui",
+      "email": "fuy@gmail.com",
+      "fullname": "Bùi Đức Duy",
+      "status": false,
+      "password": "duy123",
+      "role": false,
+      "avatar": "",
+      "phone": "",
+      "address": "",
+      "created_at": "10/7/2024",
+      "updated_at": "10/7/2024",
+      "cart": []
+    },
+    {
+      "id": "8183",
+      "username": "dungbg",
+      "email": "dungdb@gmail.com",
+      "fullname": "Đặng Tô Ngộ Dũng",
+      "status": true,
+      "password": "dung123",
+      "role": false,
+      "avatar": "",
+      "phone": "",
+      "address": "",
+      "created_at": "12/7/2024",
+      "updated_at": "12/7/2024",
+      "cart": []
+    },
+    {
+      "id": "dfb8",
+      "username": "nghĩa",
+      "email": "Nghia@gmail.com",
+      "fullname": "Ngô Hữu Nghĩa",
+      "status": true,
+      "password": "nghia123",
+      "role": false,
+      "avatar": "",
+      "phone": "",
+      "address": "",
+      "created_at": "16/7/2024",
+      "updated_at": "16/7/2024",
+      "cart": []
+    },
+    {
+      "id": "0d6c",
+      "username": "DuyQuang",
+      "email": "quang@gmail.com",
+      "fullname": "Bùi Duy Quang",
+      "status": true,
+      "password": "quang123",
+      "role": false,
+      "avatar": "",
+      "phone": "",
+      "address": "",
+      "created_at": "16/7/2024",
+      "updated_at": "16/7/2024",
+      "cart": []
+    }
+  ],
+  "product": [
+    {
+      "id": "e1c3",
+      "product_name": "Giường Ngủ Gỗ Công Nghiệp Hiện Đại có ngăn kéo đa năng - GP248",
+      "description": "Giường ngủ đẹp hiện đại với thiết kế 3 ngăn kéo để đồ tiện dụng cùng kích thước vừa phải để bạn có thể thoải mái sắp xếp các vật dụng đồ vật cá nhân vào bên trong.  Ưu đãi giá giường ngủ gỗ lõi xanh chống ẩm bằng giá giường ngủ gỗ lõi thường không chống ẩm  Phần đệm đầu giường làm bằng da công nghiệp êm ái tạo cảm giác thoải mái khi bạn tựa lưng vào. Bên cạnh đó với các gốc giường được bo tròn giúp tránh được tổn thương khi va chạm an toàn cho người sử dụng  Sản phẩm giường ngủ mang màu sắc vân gỗ tinh tế nhẹ nhàng, tạo điểm nhấn cho căn phòng thêm phần mới mẽ sự lựa chọn hợp lý cho không gian hiện đại.",
+      "unit_price": 4830000,
+      "stock_quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-523ae.appspot.com/o/nghiaImage%2F31__289d173471c2485caeb35e1ed9d64d4b.webp?alt=media&token=b19b262e-b3b7-4b69-a8a1-688562a8ade3",
+      "status": 1,
+      "created_at": "16/7/2024",
+      "updated_at": "16/7/2024",
+      "category": "Phòng ngủ",
+      "sold": 0
+    },
+    {
+      "id": "790d",
+      "product_name": "Bồn tắm oval hiện đại DPO-1580",
+      "description": " Bồn tắm oval hiện đại DPO-1580 là một thiết kế trang nhã mới tạo ra trải nghiệm tắm thoải mái. Không gian nhỏ gọn và thiết kế độc đáo của nó giúp tiết kiệm nước, năng lượng và dễ dàng lắp đặt. Oval là sự lựa chọn lý tưởng cho không gian phòng tắm của bạn, có đủ chỗ cho mái ấm gia đình.",
+      "unit_price": 11307500,
+      "stock_quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-523ae.appspot.com/o/nghiaImage%2FBon-tam-oval-hien-dai-DPO-1580-768x768.jpg?alt=media&token=36be2003-6730-4827-abb3-7f9e51999efa",
+      "status": 1,
+      "created_at": "16/7/2024",
+      "updated_at": "16/7/2024",
+      "category": "Phòng tắm",
+      "sold": 0
+    },
+    {
+      "id": "aba9",
+      "product_name": "Ghế Sofa Góc Nỉ Chữ L Đẹp SF.70",
+      "description": " với kiểu dáng đẹp, hiện đại, chất lượng cao cấp, đang được sử dụng rộng rãi trên thị trường hiện nay – Mẫu ghế sofa góc nỉ chữ L SF70. Xin mời các bạn cùng theo dõi!",
+      "unit_price": 7200000,
+      "stock_quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-523ae.appspot.com/o/nghiaImage%2Fghe-sofa-goc-ni-dep-sf70.1-768x759.jpg?alt=media&token=c9e23b80-3539-4125-939e-e66f6882d5cc",
+      "status": 2,
+      "created_at": "16/7/2024",
+      "updated_at": "16/7/2024",
+      "category": "phòng khách",
+      "sold": 0
+    }
+  ],
+  "category": [
+    {
+      "id": "bf20",
+      "category_name": "Phòng ngủ",
+      "description": "Phòng ngủ là phòng đề ngủ hoặc tập thể dục",
+      "status": true,
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/project-523ae.appspot.com/o/nghiaImage%2Fz4205200783233_4318d9fe2988b9886455fce3aa016937.jpg?alt=media&token=30a07ee7-dd70-4790-a9dd-6405c4ba5061",
+      "created_at": "15/7/2024",
+      "updated_at": "15/7/2024"
+    },
+    {
+      "id": "036c",
+      "category_name": "Phòng bếp",
+      "description": "Phòng bếp nơi để nấu ăn hoặc gì đó khác",
+      "status": true,
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/project-523ae.appspot.com/o/nghiaImage%2Fthiet-ke-noi-that-phong-bep-2.jpg?alt=media&token=d9a999c7-40d4-4f21-b048-aa4becf7e455",
+      "created_at": "16/7/2024",
+      "updated_at": "16/7/2024"
+    },
+    {
+      "id": "4a63",
+      "category_name": "phòng khách",
+      "description": "Phòng khách là nơi sinh hoạt chung và tiếp khách",
+      "status": true,
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/project-523ae.appspot.com/o/nghiaImage%2Fthiet-ke-noi-that-phong-khach-104.jpeg.webp?alt=media&token=89a56cd8-39c1-4215-9f8d-ecc1cdadd122",
+      "created_at": "16/7/2024",
+      "updated_at": "16/7/2024"
+    },
+    {
+      "id": "9003",
+      "category_name": "Phòng tắm",
+      "description": "Phòng tắm là nơi để tắm và vệ sinh cá nhân",
+      "status": true,
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/project-523ae.appspot.com/o/nghiaImage%2Fphong-tam-don-gian-su-dung-mau-sac-hai-hoa-tao-khong-gian-thoai-mai.jpeg.webp?alt=media&token=6639d7d9-b177-4063-aa12-545b40b449e5",
+      "created_at": "16/7/2024",
+      "updated_at": "16/7/2024"
+    },
+    {
+      "id": "6fe2",
+      "category_name": "Phòng làm việc",
+      "description": "Nơi để làm việc :>",
+      "status": true,
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/project-523ae.appspot.com/o/nghiaImage%2F10-mau-thiet-ke-phong-lam-viec-hien-dai-4-1.jpg?alt=media&token=eb66c238-51b2-4bc5-97b6-ee2053a4dc03",
+      "created_at": "16/7/2024",
+      "updated_at": "16/7/2024"
+    },
+    {
+      "id": "a6d2",
+      "category_name": "Phòng gym",
+      "description": "Nơi để tập luyện",
+      "status": true,
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/project-523ae.appspot.com/o/nghiaImage%2Fphong-tap-gym-tai-gia.jpg?alt=media&token=1639acd6-dad8-417c-b63a-710ddce0335f",
+      "created_at": "16/7/2024",
+      "updated_at": "16/7/2024"
+    },
+    {
+      "id": "3040",
+      "category_name": "Ngoài trời",
+      "description": "ugauif",
+      "status": true,
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/project-523ae.appspot.com/o/nghiaImage%2Fmau-background-trang-nha-trong-nha_075707308.jpg?alt=media&token=99e9a5ae-0930-43aa-a653-b1105dd7dfaf",
+      "created_at": "16/7/2024",
+      "updated_at": "16/7/2024"
+    }
+  ],
+  "cart": []
+}

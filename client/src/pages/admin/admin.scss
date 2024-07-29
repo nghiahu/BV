@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.active{
+    border-left:3px solid white ;
+    color: white !important;
+    
+}
+.backgroudAdmin{
+    background-color: rgb(216, 216, 216);
+    height:100vh;
+    width: 100%;
+    .navigationBar{
+        width: 15%;
+        height: 100vh;
+        background-color: rgb(36, 34, 34);
+        position: fixed;
+        .titleAdmin{
+            color: white;
+            font-size: 28px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap:10px;
+            margin-left: 15%;
+            padding-top: 15%;
+            padding-bottom: 20%;
+        }
+        .indexing{
+            .indexingItem{
+                color: rgb(143, 136, 136);
+                display: flex;
+                gap: 5%;
+                font-size: 18px;
+                padding: 10px 20px;
+                align-items: center;
+                margin-left: 1%;
+                text-decoration:none;
+            }
+            .intwoIndex{
+                border: none !important;
+                color: rgb(143, 136, 136) !important;
+            }
+
+        }
+        .hr{
+            margin: 100px 12%;
+            border: 1px solid rgb(124, 119, 119);
+        }
+        .logOut{
+            display: flex;
+            align-items: center;
+            color: rgb(143, 136, 136);
+            font-size: 16px;
+            gap:5%;
+            margin-left: 12%;
+            margin-top: 130%;
+       }
+    }
+
+    .headerAdmin{
+        margin-left: 15%;
+        display: flex;
+        background-color: rgb(249, 246, 246);
+        height: 16vh;
+        align-items: center;
+        .titleHeader{
+            padding-left: 8%;
+            font-size: 24px;
+            font-weight: 700;
+            color: rgb(42, 40, 40);
+            width: 50%;
+        }
+        .headerRight{
+            display: flex;
+            align-items: center;
+            width: 50%;
+            padding-left: 5%;
+            .headerSearch{
+                position: relative;
+                .iconSearch{
+                    position: absolute;
+                    top: 30%;
+                    left: 5%;
+                }
+                .inpHeader{
+                    height: 35px;
+                    border-top-left-radius: 50px;
+                    border-bottom-left-radius: 50px;
+                    border-top-right-radius: 50px;
+                    border-bottom-right-radius: 50px;
+                    border: none;
+                    padding-left: 18%;
+                    outline: none;
+                    background-color: rgb(216, 216, 216);
+                }
+            }
+            .notication{
+                font-size: 32px;
+                margin-left: 10%;
+                margin-right: 5%;
+            }
+            .accout{
+                display: flex;
+                align-items: center;
+                gap: 3%;
+                .avata{
+                    width: 15%;
+                    height: 15%;
+                    border-radius: 50%;
+                    background-color: gray;
+                }
+                .useName{
+                    font-weight: 500;
+
+                }
+            }
+        }
+    }
+    .newsBoard{
+        margin-left: 15%;
+        display: flex;
+        gap: 2%;
+        .leftBoard{
+            margin: 0% 2%;
+            width: 60%;
+            .leftBoardf{
+                display: flex;
+                width: 100%;
+                height: 25vh;
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+                color: white;
+                background-color: rgb(36, 34, 34);
+                align-items: center;
+                margin: 1.5% 0%;
+                margin-top: 3%;
+                .nameBoard{
+                    width: 30%;
+                    height: 60%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                .nameBoardItem{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+                    border-right:1px solid white;
+                    height: 100%;
+                    .iconMoney{
+                        font-size: 70px;
+                    }
+                    .nameNews{
+                        font-size: 25px;
+                        font-weight: 700;
+                    }
+                }
+                .noteName{
+                    color: rgb(134, 131, 131);
+                    font-size: 14px;
+                }
+            }
+                .infoBoard{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 5%;
+                    height: 100%;
+                    width: 70%;
+                    justify-content: space-evenly;
+                    .totalvalue{
+                        font-size: 35px;
+                        font-weight: 700;
+                    }
+                    .index{
+                        display: flex;
+                        gap: 15px;
+                        align-items: center;
+                        .iconvale{
+                            margin-right: 5%;
+                        }
+                        .indexItem{
+                            display: flex;
+                            align-items: center;
+                            gap:3%;
+                            width: 30%;
+                        }
+                    }
+                }
+            }
+        
+        .leftBoards{
+            display: flex;
+            width: 100%;
+            height: 25vh;
+            background-color: white;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            margin: 1.5% 0%;
+            align-items: center;
+            .nameNews{
+                width: 30%;
+                height: 60%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            .nameindex{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: center;
+                border-right:1px solid rgb(38, 37, 37);
+                height: 100%;
+                .iconName{
+                    font-size: 70px;
+                }
+                .name{
+                    font-size: 25px;
+                    font-weight: 700;
+                    width: 70%;
+                }
+            }
+            .nameNewsItem{
+                color: rgb(249, 248, 248);
+                font-size: 14px;
+            }
+        }
+            .inforNews{
+                display: flex;
+                flex-direction: column;
+                margin-left: 5%;
+                height: 100%;
+                width: 70%;
+                justify-content: space-evenly;
+                .value{
+                    font-size: 35px;
+                    font-weight: 700;
+                }
+                .valueinfo{
+                    display: flex;
+                    gap: 15px;
+                    align-items: center;
+                    .iconvale{
+                        margin-right: 5%;
+                    }
+                    .valueinfoItem{
+                        display: flex;
+                        align-items: center;
+                        gap:3%;
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+    .rightBoard{
+        background-color: white;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 30%;
+        margin-top: 1.5%;
+        .titleBoard{
+            margin-top: 10%;
+            margin-left: 10%;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+    }
+}

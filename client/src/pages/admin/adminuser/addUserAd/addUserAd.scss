@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.backgroudAddUserAD{
+    margin-left: 16.5%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 82%;
+    margin-top: 1.5%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    .formAddUserAD{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 4%;
+        height: 100%;
+        margin-top: 5%;
+        .addUserAD{
+            width: 100%;
+            display: flex;
+            position: relative;
+            .iconAddUserAD{
+                position: absolute;
+                z-index: 1;
+                top: 25%;
+                left: 1%;
+                color: rgb(61, 60, 60);
+            }
+            .inpAddUserAD{
+                width: 100%;
+                height: 35px;
+                border: none;
+                border-bottom:1px solid rgb(52, 51, 51);
+                padding-left: 5%;
+                outline: none;
+            }
+        }
+        .error{
+            margin-left: 5%;
+            margin-top: 5px;
+            font-size: 12px;
+            text-decoration: underline;
+            color: red;
+            display: none;
+        }
+        .errorBlock{
+            margin-left: 5%;
+            margin-top: 10px;
+            font-size: 12px;
+            text-decoration: underline;
+            color: red;
+            display: block;
+        }
+        .selAddUserAD{
+            width: 30%;
+            height: 35px    ;
+            
+        }
+        .btnAddUserAD{
+            width: 50%;
+            margin: 0 25%;
+            height: 35px;
+            background-color: rgb(52, 51, 51);
+            border: none;
+            color: white;
+        }
+        .btnAddUserAD:active{
+            background-color: rgb(161, 156, 156);
+        }
+    }
+    .iconAddUserADFrom{
+        width: 20%;
+        height: 80%;
+        font-size: 10%;
+        
+    }
+}
+.outAddUserAD{
+    position: fixed;
+    left: 20%;
+    bottom: 10%;
+    font-size: 30px;
+}

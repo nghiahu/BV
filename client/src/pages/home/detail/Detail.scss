@@ -1,0 +1,70 @@
+.detailForm{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    display: flex;
+    height: 85vh;
+    justify-content: space-between;
+    .imgDetail{
+        width: 45%;
+    }
+    .detailInfor{
+        width: 52%;
+        .DetailProductName{
+            font-size: 23px;
+            margin-top: 3%;
+            font-weight: 600;
+        }
+        .evaluateDetail{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 2%;
+            .evaluateDetailItem{
+                display: flex;
+                gap: 4%;
+                width: 40%;
+            }
+        }
+        .DetailProPrice{
+            font-size: 28px;
+            margin-top: 8%;
+            color: orangered;
+        }
+        .DeltaiInpValue{
+            margin-top: 10%;
+            width: 30%;
+            .inpDetal{
+                width: 100%;
+                height: 35px;
+                font-size: 18px;
+            }
+        }
+        .descripDetail{
+            margin-top: 5%;
+            width: 80%;
+            height: 120px;
+            overflow-y: auto;
+            white-space: nowrap;
+        }
+        .BtnDetail{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            margin-left: 6%;
+            margin-top: 5%;
+            gap: 20px;
+            .btnDetal{
+                padding: 10px 0;
+            }
+            .btnDetalAdd{
+
+            }
+            .btnDetalBuy{
+                background-color: rgb(37, 35, 35);
+                border: none;
+                color: white;
+            }
+        }
+    }
+}

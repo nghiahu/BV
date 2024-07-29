@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+th,td{
+    height: 50px;
+    width: 18%;
+}
+td{
+    border-top: 1px solid rgb(160, 158, 158);
+}
+.adUser{
+    margin-left: 16.5%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 82%;
+    margin-top: 1.5%;
+    height: 75vh;
+    .adUserTop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 5%;
+        // border: 1px solid black;
+        padding-top: 3%;
+        .addNewUserad{
+            display: flex;
+            align-items: center;
+            background-color: rgb(49, 49, 48);
+            color: white;
+            font-weight: 600;
+            padding: 1% 2%;  
+            text-decoration:none;
+        }
+        .addNewUserad:active{
+            background-color: white;
+        }
+    .sortInp{
+        display: flex;
+        width: 15%;
+        position: relative;
+        .titleSort{
+            position: absolute;
+            left: 5%;
+            top: 25%;
+            font-size: 14px;
+            color: rgb(98, 97, 95);
+        }
+        .select{    
+            width: 100%;
+            padding-left: 43%;
+            height: 35px;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border: 1px solid rgb(143, 140, 140);
+            outline: none;
+        }
+    }
+}
+    .fromUser{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+        .tableUser{
+            width: 90%;
+            text-align: center;
+            .nameUserAd{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                gap: 2%;
+                .nameUserAdIcon{
+                    display: none;
+                }
+                .nameUserAdIconLock{
+                    display: block;
+                    color: red;
+                }
+            }
+            .action{
+                display: flex;
+                justify-content: space-around;
+                // border: 1px solid black;
+                height: 30px;
+                .btnview{
+                    padding: 4px 6%;
+                    background-color: rgb(53, 50, 50);
+                    border: none;
+                    color: white;
+                    font-weight: 600;
+                }
+                .btnview:active{
+                    background-color: white;
+                    color: rgb(53, 50, 50);
+                }
+                .btnact{
+                    padding: 4px 6%;
+                    color: rgb(53, 50, 50);
+                    font-weight: 600;
+                }
+            .btnChangeStatus{
+                display: flex;
+                width: 30%;
+                height: 100%;
+                background-color: rgb(53, 50, 50);
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+                border: 1px solid rgb(53, 50, 50);
+                .arow{
+                    background-color: white;
+                    height: 100%;
+                    border-radius: 50%;
+                    width: 50%;
+                }
+            }
+            .btnChangeStatustwo{
+                display: flex;
+                width: 30%;
+                height: 100%;
+                background-color: white;
+                border: 1px solid rgb(53, 50, 50);
+                justify-content: end;
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+                .arow{
+                    background-color: rgb(53, 50, 50);
+                    height: 100%;
+                    border-radius: 50%;
+                    width: 55%;
+                }
+            }
+        }
+        }
+    }
+}

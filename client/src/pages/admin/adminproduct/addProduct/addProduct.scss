@@ -1,0 +1,77 @@
+.backGruondAddProduct{
+    margin-left: 16.5%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 82%;
+    margin-top: 1.5%;
+    height: 80vh;
+    .backPage{
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        color: rgb(0, 106, 255);
+        background: none;
+        padding: 2%;
+        .backPageIcon{
+            font-size: 28px;
+        }
+    }
+    .TitleAddProduct{
+        padding-left: 10%;
+        font-weight: 600;
+    }
+    .formInp{
+        height: 65vh;
+        padding: 0px 5%;
+        width: 60%;
+        .divInp{
+            display: flex;
+            flex-direction: column;
+            padding-top: 1%;
+            position: relative;
+            .InpAddPRoduct{
+                width: 100%;
+                height: 35px;
+                padding-left: 1%;
+            }
+            .errorPro{
+                font-size: small;
+                margin-left: 15%;
+                color: red;
+                position: absolute;
+                top: 100%;
+                display: none;
+            }
+            .errorProBlock{
+                font-size: small;
+                margin-left: 15%;
+                color: red;
+                position: absolute;
+                top: 100%;
+                display: block;
+            }
+        }
+    }
+    .fromAddBtn{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+        .fromAddBtnIcon{
+            font-size: 1300%;
+        }
+        .fromAddBtnBtn{
+            margin-top: 30px;
+            padding: 2% 10%;
+            background-color: white;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+    }
+}

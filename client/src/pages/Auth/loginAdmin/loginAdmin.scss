@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.backgroudLoginAdmin{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    background-image: url('./public/Assets/images/energy-broker-crm+(1).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    .titleLogin{
+        color: rgb(228, 222, 222);
+        font-weight: 700;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        gap: 1%;
+        width: 100%;
+        justify-content: center;
+    }
+    .formLoginn{
+        border: 1px solid rgb(128, 126, 126);
+        border-radius: 5px  ;
+        width: 35%;
+        background-color: white;
+        .errorLogin{
+            margin-left: 7%;
+            margin-top: 5%;
+            width: 80%;
+            font-size: 16px;
+            padding: 5px;
+            text-decoration: underline;
+            color: red;
+            background-color: rgb(235, 235, 187);
+            display: none;
+        }
+        .errorLoginBlock{
+            margin-left: 7%;
+            margin-top: 5%;
+            width: 80%;
+            font-size: 16px;
+            padding: 5px;
+            text-decoration: underline;
+            color: red;
+            background-color: rgb(235, 235, 187);
+            display: none;
+        }
+        .deginInp{
+            margin-left: 5%;
+            position: relative;
+            .error{
+                margin-left: 2%;
+                margin-top: 10px;
+                font-size: 13px;
+                text-decoration: underline;
+                color: red;
+                position: absolute;
+                display: none;
+            }
+            .errorBlock{
+                margin-left: 2%;
+                margin-top: 10px;
+                font-size: 13px;
+                text-decoration: underline;
+                color: red;
+                position: absolute;
+                display: block;
+            }
+            .iconInp{
+                position: absolute;
+                top: 40px;
+                color: rgb(60, 59, 58);
+                left: 0%;
+            }
+            .inpLogin{
+                width: 90%;
+                margin-top: 30px;
+                height: 35px;
+                border: none;
+                border-bottom: 1px solid rgb(70, 68, 68);
+                padding-left: 6%;
+                outline: none;
+            }
+        }
+        .remember{
+            margin-top: 30px;
+            margin-left: 5%;
+            font-size: 14px;
+            display: flex;
+            gap:5px;
+        }
+        .navigation{
+            margin-top: 20px;
+            margin-left: 30%;
+            font-size: 15px;
+            .link{
+                text-decoration:none;
+            }
+        }
+        .nav{
+            margin-top: 20px;
+            margin-left: 25%;
+            font-size: 15px;
+        }
+        .hr{
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 20px;
+        }
+        .divBtnLogin{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            .btnLogin{
+                padding: 10px 8%;
+                border: none;
+                background: linear-gradient(to left, rgb(52, 53, 55) 50%, white 50%);
+                background-size: 200% 100%;
+                color: white;
+                font-weight: 600;
+                margin-bottom: 30px;
+                border: 1px solid white;
+                background-position: right bottom;
+                transition: background-position 0.5s;
+            }
+            .btnLogin:hover{
+                background-color: white;
+                color: rgb(52, 53, 55);
+                font-weight: 600;
+                border: 1px solid rgb(52, 53, 55);
+                background-position: left bottom;
+            }
+        }
+    }
+}

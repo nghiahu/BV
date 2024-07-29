@@ -1,0 +1,99 @@
+.backgroundAddCategory{
+    margin-left: 16.5%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 82%;
+    margin-top: 1.5%;
+    height: 80vh;
+    display: flex;
+    .arrange{
+        width: 65%;
+    .backBlock{
+        display: flex;
+        align-items: center;
+        color: rgb(35, 113, 214);
+        padding: 1.2%;
+        width: 10%;
+        .backBlockIcon{
+            font-size: 28px;
+        }
+    }
+    .inpBlock{
+        margin-left: 5%;
+        margin-top: 2%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        .inpCategory{
+            width: 70%;
+            height: 40px;
+            padding-left: 3.5%;
+        }
+        .iconCategory{
+            position: absolute;
+            top:20%;
+            left: 0.5%;
+            font-size: 20px;
+        }
+        .errorCategory{
+            width: 3    0%;
+            margin-left: 5%;
+            color: red;
+            font-size: 14px;
+            display: none;
+        }
+        .errorCategoryBlock{
+            width: 100%;
+            margin-left: 5%;
+            color: red;
+            font-size: 14px;
+            display: block;
+        }
+    }
+    .inpBlockArea{
+        margin-left: 5%;
+        margin-top: 2%;
+        position: relative;
+        .inpTexAre{
+            width: 90%;
+            min-height: 250px;
+            padding-left:3.5% ;
+            padding-top: 0.5%;
+        }
+        .iconTexAre{
+            position: absolute;
+            top:4%;
+            left: 0.5%;
+            font-size: 20px;
+        }
+        .errorCategory{
+            width: 100%;
+            margin-left: 5%;
+            color: red;
+            font-size: 14px;
+            display: none;
+        }
+        .errorCategoryBlock{
+            width: 100%;
+            margin-left: 5%;
+            color: red;
+            font-size: 14px;
+            display: block;
+        }
+    }
+    .btnAddCategory{
+        margin-left: 12%;
+        margin-top: 5%;
+        padding: 1.5% 5%;
+        border: none;
+        background-color: rgb(36, 35, 35);
+        color: white;
+        font-weight: 600;
+    }
+}
+   
+        
+}

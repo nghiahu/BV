@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    list-style: none;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    position: sticky;
+    background-color: white;
+    z-index: 2;
+    width: 100%;
+    margin-top: 0%;
+    .headerTop{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        height: 80%;
+        align-items: center;
+        .title{
+            display: flex;
+            align-items: center;
+            gap: 3%;
+            font-size: 50px;
+            font-weight: 900;
+        }
+        .inpSearch{
+            height: 35%;
+            width: 30%;
+            display: flex;
+            align-items: center;
+            .inp{
+                width: 90%;
+                height: 100%;
+                border-top-left-radius:5px ;
+                border-bottom-left-radius: 5px;
+                border: 1px solid rgb(193, 189, 189);
+                padding-left: 3%;
+            }
+            .iconSearch{
+                width: 10%;
+                background-color: rgb(28, 28, 28);
+                color: white;
+                font-weight: 60%;
+                height: 100%;
+                padding: 2%;
+            }
+
+        }
+        .acc{
+            width: 110%;
+        .accoutdiv{
+            display: flex;
+            align-items: center;
+            gap: 5%;
+            width: 100%;
+            .iconAcount{
+                font-size: 32px;
+            }
+            .clomAcount{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                .formLoRe{
+                    display: flex;
+                    .formLoReF{
+
+                    }
+                    .formLoReF:hover{
+                        background-color: gray;
+                    }
+                }
+            .account{
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                gap: 3%;
+            }
+        }
+
+        }
+    }
+        .cartDiv{
+            display: flex;
+            align-items: center;
+            gap: 5%;
+            width: 10%;
+            .cart{
+                position: relative;
+                .cartNumber{
+                    position: absolute;
+                    border-radius: 50%;
+                    background-color: rgb(57, 56, 56);
+                    color: white;
+                    padding: 5% 20%;
+                    left: 55%;
+                }
+                .iconCart{
+                    font-size: 40px;
+                }
+            }
+            .cartP{
+                font-size: 20px;
+            }
+        }
+        .heart{
+            color: rgb(255, 0, 72);
+            font-size: 25px;
+        }
+    }
+    .headerBottom{
+        .menu{
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+            margin-left: 5%;
+            .class{
+                background-color: white;
+                height: 30px;
+            }
+        }
+    }
+}
+.Carousels{
+    margin-top: 1%;
+    width: 100%;
+    .carousel-indicators{
+        display: none;
+    }
+}
+.categoryNavigationIndex{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    .categoryNavigation{
+        width: 80%;
+        .titleCateNav{
+            font-weight: 600;
+        }
+        .navFrame{
+            display: flex;
+            gap: 6%;
+            .leftNavFrame{
+                display: flex;
+                flex-direction: column;
+                gap: 10%;
+                .leftNavFrameItem{
+                    width: 110%;
+                    .navFrameO{
+                        margin-top: 20px;
+                        width: 100%;
+                    }
+                }
+            }
+            .RightNavFrame{
+                .RightNavFrameTop{
+                    width: 100%;
+                    .navFrameTR{
+                        margin-top: 20px;
+                        width: 102%;
+                        height: 462px;
+                    }
+                }
+                .RightNavFrameBot{
+                    display: flex;
+                    gap: 8%;
+                    .RNavFBotItem{
+                        margin-top: 20px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+.DlistProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .DlistProductTop{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3%;
+        .titleCate{
+            font-size: 23px;
+        }
+        .SeeMore{
+            color: rgb(255, 106, 0);
+        }
+    }
+    .listProduct{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 4%;
+        gap:2%;
+        padding-bottom: 45px;
+        .product{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .productImgRender{
+                width: 100%;
+                height: 58%;
+            }
+            .productInfoRender{
+                display: flex;
+                flex-direction: column;
+                gap:10px;
+                .informationProduct{
+                    display: flex;
+                    justify-content: space-between;
+                    .starPro{
+                        color: orangered;
+                    }
+                }
+                .iconHearPro{
+                    font-size: 25px;
+                    color: rgb(255, 0, 72);
+                }
+            }
+            .btnInfoProduct{
+                width: 100%;
+                padding:6px 2%;
+            }
+            .BuyNowBtn{
+                background-color: rgb(38, 36, 36);
+                border: none;
+                color: white;
+            }
+        }
+    }
+}
+.listRightCen{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    .listRight{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        border-top: 1px solid rgb(69, 67, 67);
+        padding-top: 2%;
+        .listRightItem{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .listRightIcon{
+                font-size: 55px;
+                color: rgb(50, 48, 48);
+            }
+        }
+    }
+}
